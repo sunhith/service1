@@ -27,7 +27,7 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
         this.tokenProvider = tokenProvider;
         this.problemSupport = problemSupport;
     }
-    }
+
 
     @Override
     public void configure(HttpSecurity http) throws Exception {
